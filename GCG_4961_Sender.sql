@@ -1,0 +1,5 @@
+CREATE TABLE "GCG_4961_Sender"(
+ "ID" IDENTITY DEFAULT '0',
+ "Sender_Email" CHAR(100) NOT NULL ,
+ "Name" CHAR(50) NOT NULL ,
+ UNIQUE ("ID"));
